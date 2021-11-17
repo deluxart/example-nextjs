@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { APP_SEO_TITLE, APP_SEO_DESCRIPTION, APP_DOMAIN_URL } from '@utils/index';
+import { APP_SEO_TITLE, APP_SEO_DESCRIPTION, APP_DOMAIN_URL } from '../../../../utils';
 
 interface HtmlMetaProps {
   title?: any;

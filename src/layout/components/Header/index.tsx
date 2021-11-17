@@ -1,4 +1,4 @@
-import { Navigation } from '@layout/look/components';
+import { Navigation } from '../../look/components';
 
 import s from './Header.module.scss';
 
