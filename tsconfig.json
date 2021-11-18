@@ -20,16 +20,16 @@
     "jsx": "preserve",
     "paths": {
       "@layout/*": [
-        "layout/*"
+        "src/layout/*"
       ],
       "@common/*": [
-        "common/*"
+        "src/common/*"
       ],
       "@pages/*": [
-        "layout/pages/*"
+        "src/layout/pages/*"
       ],
       "@utils/*": [
-        "utils/*"
+        "src/utils/*"
       ]
     },
     "incremental": true
