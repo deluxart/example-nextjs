@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import Layout from '../layout';
 
-import '../layoutut/look/styles/resources.scss';
+import '../look/styles/resources.scss';
 
 const NextApp = ({ Component, pageProps }: AppProps) => {
   return (

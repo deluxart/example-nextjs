@@ -1,4 +1,4 @@
-import HtmlMeta from '@layout/look/components/HtmlMeta';
+import { HtmlMeta } from '../look/components';
 
 import s from './Home.module.scss';
 

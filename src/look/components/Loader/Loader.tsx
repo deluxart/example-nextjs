@@ -1,4 +1,4 @@
-const Loader = ({ isDark = false }: any) => (
+export const Loader = ({ isDark = false }: any) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
     <circle
       cx="50"
@@ -21,4 +21,3 @@ const Loader = ({ isDark = false }: any) => (
     </circle>
   </svg>
 );
-export default Loader;

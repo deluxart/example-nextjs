@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { APP_SEO_TITLE, APP_SEO_DESCRIPTION, APP_DOMAIN_URL } from '../../../../utils';
+import { APP_SEO_TITLE, APP_SEO_DESCRIPTION, APP_DOMAIN_URL } from '@utils/index';
 
 interface HtmlMetaProps {
   title?: any;
@@ -8,7 +8,7 @@ interface HtmlMetaProps {
   url?: string;
 }
 
-const HtmlMeta = ({
+export const HtmlMeta = ({
   title = '',
   description = '',
   // image = '/assets/images/seo_image.jpg',
@@ -33,5 +33,3 @@ const HtmlMeta = ({
     {/*<meta name="telegram:channel" content="@NFT_Cloud_chat" />*/}
   </Head>
 );
-
-export default HtmlMeta;
